@@ -1,32 +1,14 @@
-from flask import Flask
+<head>
+    <meta charset="UTF-8">
 
-app = Flask(__name__)
+    <meta name="google-site-verification" content="MUZhxvCmV1ZYtfxHj36Mp7g9P3_tUF0AJlbbeblvQds" />
 
-@app.route("/")
-def home():
-    return """
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>KIBUTSUJI | Chocolate</title>
+    <title>KIBUTSUJI | Chocolate</title>
 
-        <meta name="description"
-              content="KIBUTSUJI — Chocolate">
+    <meta name="description"
+          content="KIBUTSUJI — Chocolate">
 
-        <meta name="robots" content="index, follow">
-    </head>
-
-    <body>
-        <h1>Chocolate 🍫</h1>
-
-        <p>Welcome to KIBUTSUJI.</p>
-        <p>My first website made with Python and Flask.</p>
-    </body>
-    </html>
-    """
-
-app.run(host="0.0.0.0", port=5000)
-
+    <meta name="robots" content="index, follow">
+</head>
